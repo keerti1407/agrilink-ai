@@ -1,0 +1,362 @@
+Build a polished full-stack hackathon-ready web app called **AgriLink AI**.
+
+## Project Vision
+
+AgriLink AI is an **AI + Blockchain-based agriculture marketplace platform** that helps farmers:
+
+* get **fair and transparent prices** for crops,
+* predict **crop diseases** using AI,
+* predict **crop prices** using AI,
+* sell **agricultural waste** for useful reuse,
+* reduce **pollution caused by stubble and crop waste burning**.
+
+This app should target:
+
+* **Farmers**
+* **Retailers / Buyers**
+* **General End Users**
+* **Admin**
+
+The app should feel like a **modern startup product** with a clean, premium, polished UI suitable for a hackathon demo.
+
+---
+
+## Main Features
+
+### 1. Authentication
+
+Build:
+
+* Login page
+* Signup page
+* Role selection:
+
+  * Farmer
+  * Buyer / Retailer
+  * Admin
+
+Use simple mock authentication or local storage auth if needed.
+
+---
+
+### 2. Landing Page
+
+Create a beautiful landing page with:
+
+* Hero section
+* App mission
+* Key features cards
+* “How it works” section
+* Social impact section
+* CTA buttons
+* Modern agriculture / AI / blockchain startup aesthetic
+
+---
+
+### 3. Farmer Dashboard
+
+Create a dashboard for farmers with:
+
+* Overview cards:
+
+  * listed crops
+  * waste listings
+  * predicted crop price
+  * disease alerts
+* quick actions:
+
+  * list crop
+  * sell waste
+  * upload crop image
+  * ask AI chatbot
+* recent transactions
+* blockchain verification status
+
+---
+
+### 4. Buyer / Retailer Dashboard
+
+Create a dashboard for buyers/retailers with:
+
+* available crop listings
+* waste listings
+* filter by category / location / price
+* contact / buy buttons
+* map view of nearby sellers (use mock location or Google Maps alternative if needed)
+
+---
+
+### 5. Crop Selling Marketplace
+
+Allow farmers to:
+
+* list crop name
+* quantity
+* expected price
+* location
+* quality grade
+* upload image (optional)
+
+Allow buyers to:
+
+* browse crop listings
+* search and filter
+* view seller details
+* see blockchain verified transaction badge
+
+---
+
+### 6. Crop Waste Marketplace
+
+Allow farmers to list agricultural waste such as:
+
+* stubble
+* husk
+* straw
+* sugarcane waste
+* rice waste
+* other biomass
+
+Each listing should include:
+
+* waste type
+* quantity
+* price
+* location
+* use case tags (biofuel, compost, packaging, cattle feed, etc.)
+
+Allow buyers to browse and connect.
+
+Add a section showing:
+
+* “Pollution prevented”
+* “Waste reused instead of burned”
+
+---
+
+### 7. AI Crop Disease Prediction
+
+Create a dedicated AI page where the farmer can:
+
+* select crop type
+* upload image (or simulate image upload)
+* click “Predict Disease”
+
+Show:
+
+* predicted disease name
+* confidence %
+* causes
+* suggested remedy
+* prevention tips
+
+Important:
+If real ML model integration is difficult, simulate it using predefined logic or Gemini API responses.
+
+---
+
+### 8. AI Crop Price Prediction
+
+Create a price prediction page where user can input:
+
+* crop type
+* region
+* season
+* quantity
+* quality grade
+
+Show:
+
+* predicted fair market price
+* expected demand
+* recommendation like:
+
+  * “Best time to sell”
+  * “Best market to target”
+  * “Expected profit range”
+
+Use mock prediction logic or Gemini-generated reasoning if needed.
+
+---
+
+### 9. AI Chatbot
+
+Create an agriculture AI chatbot using Gemini API (free tier / easy integration if possible).
+
+Chatbot should help with:
+
+* crop disease guidance
+* fertilizer advice
+* waste reuse ideas
+* selling strategy
+* price-related questions
+
+Design it like a floating chatbot assistant or dedicated chat page.
+
+---
+
+### 10. Blockchain Transparency Page
+
+Create a visually impressive blockchain-inspired transparency dashboard.
+
+Show:
+
+* crop sale transactions
+* waste sale transactions
+* timestamps
+* seller ID
+* buyer ID
+* crop/waste details
+* transaction hash
+* “verified block” style cards
+
+This does not need real blockchain deployment if too complex.
+You can simulate blockchain logic using:
+
+* block cards
+* hashes
+* immutable transaction history
+* linked transaction chain UI
+
+The goal is to demonstrate **trust and transparency**.
+
+---
+
+### 11. Admin Panel
+
+Create an admin panel with:
+
+* total users
+* total farmers
+* total buyers
+* total transactions
+* listed crops
+* listed waste items
+* flagged listings
+* analytics charts
+* simple moderation actions
+
+---
+
+### 12. Maps Integration
+
+Use free map integration if possible (Leaflet/OpenStreetMap preferred over paid maps).
+
+Add maps to:
+
+* crop listings
+* waste listings
+* seller location display
+
+If map API setup is difficult, simulate map cards with location pins and coordinates.
+
+---
+
+## Tech Stack
+
+Use:
+
+* **Frontend:** React + Vite
+* **Styling:** Tailwind CSS
+* **Routing:** React Router
+* **Icons:** Lucide React
+* **Charts:** Recharts
+* **Backend:** Node.js + Express (optional lightweight backend)
+* **Database:** local JSON / mock data / localStorage / lightweight in-memory data
+* **AI:** Gemini API integration if easy, otherwise mocked smart responses
+* **Maps:** Leaflet + OpenStreetMap (free only)
+
+---
+
+## Design Requirements
+
+The UI should be:
+
+* modern startup style
+* clean and polished
+* responsive
+* investor / hackathon demo friendly
+* premium-looking
+* green + earthy + tech-inspired
+* card-based dashboard style
+* subtle animations if possible
+
+Use:
+
+* gradient hero section
+* polished cards
+* charts
+* badges
+* tabs
+* filters
+* search bars
+* responsive sidebar dashboard layout
+
+---
+
+## Demo-First Priority
+
+This is a **hackathon MVP**, so prioritize:
+
+1. polished UI
+2. smooth user flow
+3. believable AI features
+4. impressive blockchain visualization
+5. real-world practicality
+
+Do NOT overcomplicate backend or deployment.
+Prefer **working demo flow over technical perfection**.
+
+---
+
+## Pages Required
+
+Build these pages:
+
+* Landing Page
+* Login
+* Signup
+* Farmer Dashboard
+* Buyer Dashboard
+* Crop Marketplace
+* Waste Marketplace
+* AI Disease Prediction
+* AI Price Prediction
+* AI Chatbot
+* Blockchain Transparency
+* Admin Panel
+
+---
+
+## Important Development Instructions
+
+* Keep everything runnable quickly
+* Use mock/sample data where needed
+* Use reusable components
+* Add clear code comments
+* Ensure mobile responsiveness
+* Avoid paid APIs or paid services
+* Make the project visually impressive for judges
+
+---
+
+## README Requirements
+
+Generate a professional README.md including:
+
+* Project name
+* Problem statement
+* Solution
+* Key features
+* Tech stack
+* AI usage
+* Blockchain usage
+* Social impact
+* Future scope
+* How to run locally
+
+---
+
+## Final Goal
+
+Deliver a **polished prototype by tonight / early morning** that is visually strong, demoable, and hackathon-winning in presentation.
